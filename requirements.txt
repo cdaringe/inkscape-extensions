@@ -1,0 +1,10 @@
+# https://gitlab.com/inkscape/extensions/blob/194a64b38dcee4f0eb8e3b6d547194bcbb0ae918/tests/dev_requirements.txt
+# Dev Requirements
+pytest
+pytest-cov
+
+# Code requirements
+lxml
+numpy
+scour
+pyserial

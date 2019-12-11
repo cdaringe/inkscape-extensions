@@ -1,5 +1,4 @@
-inkscape-chain-paths
-===================
+# inkscape-chain-paths
 
 An inkscape extension to combine paths. Like really combining path snippets
 into longer paths. The stock inkscape path operation "combine" does not do that.
@@ -14,7 +13,7 @@ If two path segments have an end point in common, or if their end points are clo
 Usage
 -----
 Select multiple pathlike objects. If the status line shows you different object types,
-then use "Path -> Object to Path". This is needed as we operate only on paths only. 
+then use "Path -> Object to Path". This is needed as we operate only on paths only.
 Then select "Extensions -> Modify Path -> Chain Paths" to open the settings dialog.
 You can choose the maximum endpoint distance for path ends to be linked, and the combination method: snap the points together, or create a linking path segment.
 
@@ -24,7 +23,7 @@ Note, that paths never fork. This means, that if there are three or more path en
 Installation
 ------------
 
-Copy the two files chain_paths.inx and 
+Copy the two files chain_paths.inx and
 chain_paths.py to your computer:
 
 Ubuntu / SUSE
@@ -38,7 +37,7 @@ Arch Linux:
 * sudo python2 setup.py build && sudo python2 setup.py install
 * sudo cp chain_paths.* /usr/share/inkscape/extensions/
 
-Windows: 
+Windows:
 * Download https://github.com/fablabnbg/inkscape-chain-paths/archive/master.zip
 * Navigate to your Downloads folder and double-click on **inkscape-chain-paths-master.zip**
 * Download and install the free test version of **winzip** from http://www.winzip.com, if needed.
@@ -57,4 +56,7 @@ To get the files, you can right click on the 'RAW' button and use your file mana
 Please check the size of the files. If the chain_paths.inx file is more than 1kb, or has more than 33 lines, you probably saved the webpage containing the file, instead of the file itself.
 
 
+## contributing
 
+- pipenv
+  - requirements from https://gitlab.com/inkscape/extensions/blob/194a64b38dcee4f0eb8e3b6d547194bcbb0ae918/tests/dev_requirements.txt

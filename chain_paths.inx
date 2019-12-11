@@ -16,8 +16,8 @@
   <param name="snap" type="boolean" _gui-text="Snap connecting ends together">false</param>
   <!-- Keep in sync with chain_paths.py line 19 __version__ = ... -->
   <param name="about_version" type="description">
-  
-  
+
+
   https://github.com/fablabnbg/inkscape-chain-paths
   Version 0.5</param>
 
@@ -28,6 +28,6 @@
     </effects-menu>
   </effect>
   <script>
-      <command reldir="extensions" interpreter="python">chain_paths.py</command>
+    <command reldir="extensions" interpreter="python">chain_paths.py</command>
   </script>
 </inkscape-extension>
